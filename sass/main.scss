@@ -10,9 +10,10 @@
 @import "layout/footer";
 @import "layout/header";
 @import "layout/navigation";
+@import "layout/work";
+
+@import "components/box-btn";
+@import "components/work-img";
 
 @import "pages/home";
 
-.header {
-    background-color: purple;
-}

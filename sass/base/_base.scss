@@ -1,0 +1,30 @@
+:root {
+
+
+    --color-white: #E0E0E0;
+
+    --color-grey-dark-1: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    font-weight: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1 rem = 10px/16px
+}
+
+body {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+}

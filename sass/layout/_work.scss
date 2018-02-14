@@ -1,0 +1,41 @@
+.work {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+
+    &__header {
+        height: 98vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        background-size: cover;
+        background-position: center;
+
+        &--text {
+            text-transform: uppercase;
+            margin-bottom: 5rem;
+            z-index: 10;
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--text {
+            width: 100rem;
+            margin: 5rem 0 3rem 0;
+            padding: 0 4rem;
+        }
+
+        &--button {
+            margin-bottom: 5rem;
+        }
+    }
+}
+
+.resume {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}

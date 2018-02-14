@@ -1,0 +1,37 @@
+.astrobotic {
+    background-image: url(../img/astrobotic.png);
+    
+    position: relative;
+    @include gradient(bottom, rgba(255, 255, 255, 0), rgba(23, 23, 24, .1), 1);
+}
+
+.hyperloop {
+    background-image: url(../img/hyperloop.png);
+    
+    position: relative;
+    @include gradient(bottom, rgba(255, 255, 255, 0), rgba(23, 23, 24, .3), 1);
+}
+
+.rendering {
+    background-image: url(../img/rendering.png);
+
+    position: relative;
+    @include gradient(bottom, rgba(255, 255, 255, 0), rgba(23, 23, 24, .3), 1);
+
+}
+
+.other-work {
+    background-image: url(../img/other-work.png);
+
+    position: relative;
+    @include gradient(bottom, rgba(255, 255, 255, 0), rgba(23, 23, 24, .1), 1);
+
+}
+
+.about-me {
+    background-image: url(../img/about-me.png);
+
+    position: relative;
+    @include gradient(bottom, rgba(255, 255, 255, 0), rgba(23, 23, 24, .4), 1);
+
+}
